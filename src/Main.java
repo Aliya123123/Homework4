@@ -14,7 +14,7 @@ public class Main {
             System.out.println("На улице " + t + " радусов, нужно надеть шапку");
         }
         else {
-            System.out.println("На улице " + t + " радусов, не нужно надеть шапку");
+            System.out.println("На улице " + t + " радусов, можно идти без шапки");
         }
 
         System.out.println("task 3");
@@ -27,7 +27,7 @@ public class Main {
 
         System.out.println("task 4");
         int years = 17;
-        if (years >= 2 && years <= 7){
+        if (years >= 2 && years <= 6){
             System.out.println("Если возраст человека равен " + years + " то ему нужно ходить в детский сад.");
         }
         if (years >= 7 && years <= 17){
